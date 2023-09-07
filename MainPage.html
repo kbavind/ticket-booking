@@ -1,0 +1,119 @@
+<html>
+<head>
+		<title> main login </title>
+		<style>
+		body
+		{
+			background-color: lightblue;
+		}
+
+		table
+		{
+			border:3px solid black;
+		}
+
+		img
+		{
+			width:1334px;
+			height:596px;
+			border-radius: 12px;
+			border:2px solid grey;
+		}
+
+		.user
+		{
+			background-color: grey;
+			text-align: center;
+			border-radius: 6px;
+		}
+
+		button
+		{
+			width:45%;
+			height:5%;
+			border-radius: 6px;
+		}
+
+		.header
+		{
+			background-color: silver;
+		}
+
+		.title
+		{
+			background-color: black;
+			color:white;
+			border-radius: 6px;
+			text-align: center;
+		}
+
+		button:hover
+		{
+			background-color: green;
+			color:white;
+		}
+
+		.button 
+		{
+		  border-radius: 4px;
+		  color: white;
+		  text-align: center;
+		  transition: all 0.5s;
+		  cursor: pointer;
+		  margin: 5px;
+		  color:black;
+		}
+
+		.button span 
+		{
+		  cursor: pointer;
+		  display: inline-block;
+		  position: relative;
+		  transition: 0.5s;
+		}
+
+		.button span:after 
+		{
+		  content: '\00bb';
+		  position: absolute;
+		  opacity: 0;
+		  top: 0;
+		  right: -20px;
+		  transition: 0.5s;
+		}
+
+		.button:hover span 
+		{
+		  padding-right: 25px;
+		}
+
+		.button:hover span:after 
+		{
+		  opacity: 1;
+		  right: 0;
+		}
+
+		.button:active 
+		{
+		  background-color: #3e8e41;
+		  box-shadow: 0 5px #666;
+		  transform: translateY(4px);
+		}
+		</style>
+</head>
+
+
+<body>
+	<table>
+		<tr class="header">
+				<div class="title"> <h1>ULTRAMUSIC</h1> </div>
+				<div class="user" > <a href="UserLogin.php"><button class='button' style='vertical-align:middle'><span>User login</span></button></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   <a href="AdminLogin.php"><button class='button' style='vertical-align:middle'><span>Admin login</span></button></a> </div>
+		</tr>
+
+		<tr class="interface">
+			<br>
+			<img src="img/interface.gif">
+		</tr>
+	</table>	
+</body>
+</html>

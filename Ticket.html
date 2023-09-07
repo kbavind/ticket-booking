@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title> Ticket Details </title>
+	<link type="text/css" rel="stylesheet" href="css/AddTicket.css">
+</head>
+
+<body>
+	&nbsp &nbsp &nbsp
+<center><form name='ticket' action='Insert.php' method='POST' enctype="multipart/form-data">
+	<table class="box">
+		<tr class='header'>
+				<td ><h2 class='head'> Ticket Details </h2></td>
+		</tr>
+
+		<tr>
+			<td>Select image to upload:
+			<input type="file" name="fileToUpload" id="fileToUpload"></td>			
+		</tr>
+
+		<tr>
+			<td class="info_name">Ticket ID</td>
+		</tr>
+
+		<tr>
+			<td><input type='number' id='ticketID' name='ticketID'></td>
+		</tr>
+		
+		<tr>
+			<td class="info_name">Ticket Type</td>
+		</tr>								
+		<tr>
+			<td><input type='radio' id='ticketType' name='ticketType' value='Normal'> Normal 
+				<input type='radio' id='tickerType' name='ticketType' value='Premium'> Premium
+				<input type='radio' id='ticketType' name='ticketType' value='VIP'> VIP</td>
+		</tr>
+
+		<tr>
+			<td class="info_name">Number of tickets</td>
+		</tr>
+
+		<tr>
+			<td><input type='number' id='ticketN' name='ticketN'></td>
+		</tr>
+			
+								
+		<tr>
+			<td class="action"><input type='submit' value='Add '> <input type='reset' value='Clear' ></td>
+		</tr>
+	</table>
+</form><center>
+</body>
+</html>
