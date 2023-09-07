@@ -1,0 +1,79 @@
+table
+{
+	background-color: white;
+	border:3px solid black;
+	width:35%;
+	text-align: center;
+	border-radius: 8px;
+}
+	
+
+.header
+{
+	background-color: blue;
+	color:white;
+	border:3px solid black;
+}
+
+input[type=submit]
+{
+	background-color:blue;
+	color:white;
+	width:20%;
+	padding: 10px 20px;
+	text-decoration: bold;
+	cursor: pointer;
+	margin: 2px 2px;
+	border-radius:6px;
+}
+
+input[type=reset]
+{
+	background-color:blue;
+	color:white;
+	width:20%;
+	padding:10px 20px;
+	text-decoration: bold;
+	cursor: pointer;
+	margin: 2px 2px;
+	border-radius:6px;
+}
+
+input[type=submit]:hover
+{
+	background-color: green;
+	color:white;
+}
+
+input[type=reset]:hover
+{
+	background-color: red;
+	color:white;
+}
+
+input
+{
+	border-radius: 8px;
+}
+
+input:focus 
+{
+  background-color: grey;
+  color:black;
+}
+
+.image
+{
+	border-radius: 8px;
+}
+
+.action
+{
+	text-align: center;
+}
+
+.info_name
+{
+	width:15%;
+	border-radius: 8px;
+}
